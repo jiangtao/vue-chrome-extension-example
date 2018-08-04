@@ -1,7 +1,7 @@
 {
   "name": "vue-chrome-extension-example",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "chrome extesion with vue",
   "scripts": {
     "start": "npm run dev:chrome",
@@ -16,12 +16,14 @@
   },
   "devDependencies": {
     "babel-cli": "6.x.x",
-    "babel-core": "^6.22.1",
+    "babel-core": "^6.26.3",
     "babel-eslint": "6.x.x",
     "babel-loader": "6.x.x",
     "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "6.x.x",
+    "babel-register": "^6.26.0",
     "bulma": "^0.3.1",
     "chai": "3.x.x",
     "chromereload": "0.x.x",
@@ -35,21 +37,18 @@
     "gulp-cache": "0.x.x",
     "gulp-clean-css": "2.x.x",
     "gulp-filter": "4.x.x",
-    "gulp-git": "1.x.x",
     "gulp-if": "2.x.x",
-    "gulp-imagemin": "3.x.x",
     "gulp-json-transform": "0.x.x",
     "gulp-less": "3.x.x",
     "gulp-livereload": "3.x.x",
     "gulp-plumber": "1.x.x",
-    "gulp-sass": "2.x.x",
     "gulp-sequence": "0.x.x",
     "gulp-sourcemaps": "1.x.x",
     "gulp-tag-version": "1.x.x",
     "gulp-util": "3.x.x",
     "gulp-vueify": "0.0.3",
     "gulp-zip": "3.x.x",
-    "require-dir": "0.x.x",
+    "require-dir": "^1.0.0",
     "vinyl-named": "1.x.x",
     "vue": "^2.2.1",
     "vue-loader": "^11.1.4",
@@ -58,5 +57,8 @@
     "webpack": "^2.2.1",
     "webpack-stream": "3.x.x",
     "yargs": "5.x.x"
+  },
+  "dependencies": {
+    "gulp-git": "^2.8.0"
   }
 }

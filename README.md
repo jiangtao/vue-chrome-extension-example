@@ -1,6 +1,17 @@
 # vue chrome extension example
 
-develop chrome extension with vue
+develop chrome extension with vue, based on [cucygh/vue-chrome-extension-example](https://github.com/cucygh/vue-chrome-extension-example). 
+
+## why 
+
+use less for our team, because the `node-sass` package is always downloaded slowly or with error in windows.
+
+## changelog
+
+- use less
+- remove gulp-imagemin
+- add background
+- etc...
 
 ## Installation
 
