@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "description": "chrome extesion with vue",
   "scripts": {
-    "start": "npm run dev:chrome",
+    "start": "export NODE_ENV=developement && npm run dev:chrome",
     "build": "npm run build:chrome",
     "build:chrome": "gulp --production --vendor=chrome && gulp pack --vendor=chrome",
     "build:firefox": "gulp --production --vendor=firefox && gulp pack --vendor=firefox",
@@ -27,16 +27,18 @@
     "bulma": "^0.3.1",
     "chai": "3.x.x",
     "chromereload": "0.x.x",
-    "css-loader": "^0.26.2",
+    "css-loader": "^0.26.4",
     "debounce": "1.x.x",
     "del": "2.x.x",
     "eslint": "3.x.x",
     "eslint-loader": "1.x.x",
+    "extract-text-webpack-plugin": "^2.1.2",
     "gulp": "3.x.x",
     "gulp-bump": "2.x.x",
     "gulp-cache": "0.x.x",
     "gulp-clean-css": "2.x.x",
     "gulp-filter": "4.x.x",
+    "gulp-git": "^2.8.0",
     "gulp-if": "2.x.x",
     "gulp-imagemin": "^4.1.0",
     "gulp-json-transform": "0.x.x",
@@ -49,7 +51,11 @@
     "gulp-util": "3.x.x",
     "gulp-vueify": "0.0.3",
     "gulp-zip": "3.x.x",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
     "require-dir": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
     "vinyl-named": "1.x.x",
     "vue": "^2.2.1",
     "vue-loader": "^11.1.4",
@@ -60,6 +66,6 @@
     "yargs": "5.x.x"
   },
   "dependencies": {
-    "gulp-git": "^2.8.0"
+    "iview": "^3.0.0"
   }
 }
