@@ -40,7 +40,7 @@ gulp.task('chromereload', (cb) => {
   // gulp.watch('app/styles/**/*.scss', ['styles:sass']);
   gulp.watch('app/pages/**/*.html', ['pages']);
   gulp.watch('app/_locales/**/*', ['locales']);
-  // gulp.watch('app/images/**/*', ['images']);
+  gulp.watch('app/images/**/*', ['images']);
   gulp.watch('app/fonts/**/*.{woff,ttf,eot,svg}', ['fonts']);
 
 });

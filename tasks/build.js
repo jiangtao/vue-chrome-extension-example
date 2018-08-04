@@ -8,7 +8,7 @@ gulp.task('build', gulpSequence(
     'styles',
     'pages',
     'locales',
-    // 'images',
+    'images',
     'fonts',
     'chromereload'
   ]

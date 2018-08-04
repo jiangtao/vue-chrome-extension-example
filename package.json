@@ -38,6 +38,7 @@
     "gulp-clean-css": "2.x.x",
     "gulp-filter": "4.x.x",
     "gulp-if": "2.x.x",
+    "gulp-imagemin": "^4.1.0",
     "gulp-json-transform": "0.x.x",
     "gulp-less": "3.x.x",
     "gulp-livereload": "3.x.x",
